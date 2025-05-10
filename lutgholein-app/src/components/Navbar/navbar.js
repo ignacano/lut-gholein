@@ -15,7 +15,7 @@ return (
         <Nav className="me-auto">
             <Nav.Link href="/home">Inicio</Nav.Link>
             <Nav.Link href="https://discord.gg/R4xXZCNK" target="_blank" rel="noopener noreferrer">Discord</Nav.Link>            
-            <Nav.Link href="/aboutUs">Quienes Somos</Nav.Link>
+            <Nav.Link href="/aboutUs">Contacto</Nav.Link>
             <NavDropdown title="Próximamente" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#">Campañas</NavDropdown.Item>
             <NavDropdown.Item href="#">Información general</NavDropdown.Item>
@@ -26,7 +26,7 @@ return (
         </Nav>
         <Nav>
             <Nav.Link eventKey={2} href="/legal">
-            Reglas
+            REGLAS
             </Nav.Link>
         </Nav>
         </Navbar.Collapse>

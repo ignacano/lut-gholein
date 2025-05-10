@@ -3,6 +3,70 @@
     font-family: Habibi; 
 }
 
+
+
+
+.contact-section {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+}
+
+.contact-form h2 {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
 .aboutUs {
     text-align: center;   
 }
@@ -29,7 +93,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: rgb(226, 226, 226);
 }
 
@@ -51,7 +114,7 @@
 
 .textoBienvenida{
     margin: 2%;
-    padding: 5%;
+    padding: 3%;
 }
 
 .containerBienvenida{
@@ -66,7 +129,7 @@
 }
 
 .CTAButton{    
-    margin: 3%;   
+   margin: 3%;   
     align-items: center;
     background-image: linear-gradient(144deg,#3d3308cb, #dbd94f 50%,#585e0e);
     border: 0;
@@ -102,8 +165,8 @@
 }
 
 .aboutUsText{
-    margin: 1;
-    padding: 1;
+    margin: 1%;
+    padding: 3%;
     font-size:large;
 }
 

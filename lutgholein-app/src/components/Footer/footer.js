@@ -11,13 +11,11 @@ const Footer = () => {
     return(
         <footer className='footerContainer'> 
             <div className="mb-4">
-            <h3 className='trademark'>Lut Gholein es una marca registrada, pero no por nosotros. -Con cariño: John Wilkins, El Gordo, Fran, Mati, Tobi.</h3>            
+            <h3 className='trademark'>Lut Gholein es una marca registrada, pero no por nosotros. Con cariño: John Wilkins, Gondar, Fran, Mati, Tobi.</h3>            
                 <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
                         className="fab fa-facebook-f"><img src={imgfacebook}/></i></a>
 
-                <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button"><i
-                        className="fab fa-twitter"><img src={imgtwitter} alt=""/></i></a>
-
+    
                 <a className="btn btn-outline-light btn-floating m-1" href="https://google.com" role="button"><i
                         className="fab fa-google"></i>
                     <img src={imggoogle} alt=""/></a>
