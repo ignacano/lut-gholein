@@ -20,12 +20,12 @@ return (
             <NavDropdown.Item href="#">Información general</NavDropdown.Item>
             <NavDropdown.Item href="#">Aportes de la comunidad</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#">Colaboraciones</NavDropdown.Item>
+            <NavDropdown.Item href="#">Campañas</NavDropdown.Item>
             </NavDropdown>
         </Nav>
         <Nav>
             <Nav.Link eventKey={2} href="/legal">
-            Legales
+            Reglas
             </Nav.Link>
         </Nav>
         </Navbar.Collapse>

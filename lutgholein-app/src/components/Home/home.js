@@ -11,13 +11,15 @@ const Home = () => {
                 <div className='containerBienvenida'>
                     <img src={logo} className="App-logo-home" alt="logo"/>
                         <div className='textoBienvenida'>
-                            <p><div className='nombreMarca'><h1 className="textoMarca">TrabajosYA</h1></div></p> 
-                            <p className="descripcionServicio">TrabajosYA funciona como un marketplace laboral en tiempo real. Encontrá al instante trabajadores disponibles cerca de tu zona y solucioná todos tus inconvenientes domésticos de una forma práctica y efectiva. <p className="resaltarEnunciado">Para tu completa tranquilidad, podrás acceder a datos, curriculum, y valoración de la experiencia de otros usuarios sobre todos los postulantes registrados!</p></p>
-                            <p className='knowMore'>¡Registrate gratis en nuestra App!</p>
-                            <img src={arrowDown} className="arrowDown" alt="arrowDown"/> 
+                            <p><div className='nombreMarca'><h1 className="textoMarca">Lut Gholein</h1></div></p> 
+                            <p className="descripcionServicio">En el corazón ardiente del desierto, donde las dunas esconden secretos ancestrales y el eco de antiguas leyendas aún resuena en las piedras, se alza Lut Gholein: nuestro bastión, nuestro punto de partida, nuestro hogar digital. 
+                                Aquí convergen aventureros de todos los rincones, unidos por el fuego del juego, la camaradería y el deseo de explorar mundos sin límites. Esta no es solo una web. Es una ciudad refugio. Un mapa hacia nuestros servidores. Un portal hacia cada historia que estamos por escribir. 
+                                Has llegado al oasis de la comunidad. Prepárate. Lo mejor está por comenzar. 
+                                <p className="resaltarEnunciado">ADELANTE, elige tu destino:</p></p>
+                          
                         </div>  
-                    <Link className="botonBusco" to="/formularioBusco">¿Buscás trabajo?</Link>
-                    <Link className="botonBusco" to="/formularioOfrezco">¿Ofrecés trabajo?</Link>
+                    <Link className="botonServer" to="/#">Foundry - Dungeon & Dragons</Link>
+                    <Link className="botonServer" to="/#">Counter Strike 1.6</Link>
                 </div>
             </header>
         </div>

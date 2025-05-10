@@ -1,6 +1,6 @@
 *{
     text-decoration: none;
-    font-family: Comfortaa; 
+    font-family: Habibi; 
 }
 
 .aboutUs {
@@ -51,17 +51,18 @@
 
 .textoBienvenida{
     margin: 2%;
-    padding: 2%;
+    padding: 5%;
 }
 
 .containerBienvenida{
     opacity: 0.7;
     margin: 2%;
-    padding: 10%;
+    padding: 1%;
 }
 
 .nombreMarca{
     font-weight: bolder;
+    font-size: larger;
 }
 
 .CTAButton{    

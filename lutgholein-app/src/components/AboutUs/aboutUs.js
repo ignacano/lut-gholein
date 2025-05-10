@@ -12,24 +12,18 @@ const AboutUs = () => {
                 <div className='containerBienvenida'>
                     <img src={logo} className="App-logo" alt="logo"/>
                         <div className='textoBienvenida'>
-                            <div className='nombreMarca'><h1>TrabajosYA</h1></div>
-                            <p>Acerca de Nosotros</p>
-                            <p className='aboutUsText'>TrabajosYa es una compañía marplatense dedicada a conectar las necesidades de nuestros usuarios. Está orientada fundamentalmente a vincular a aquellos que necesitan solucionar un inconveniente doméstico -ya sea un problema eléctrico, de plomería, o mantenimiento en general, entre miles de otras opciones- con quien SABE COMO SOLUCIONARLO. 
-                            El objetivo de nuestra plataforma es ofrecer un entorno seguro para que trabajadores de diversos oficios y clientes cercanos geográficamente puedan conectar y ayudarse mutuamente. Es por eso que nos tomamos muy en serio nuestra tarea, y contamos con mecanismos de validación de identidad, calificación de usuarios, currículum e historial de todos nuestros usuarios registrados. 
-                            Los que hacemos TrabajosYa, sabemos lo importante que es poder contar con una solución cercana y confiable en momentos de apuros o inconvenientes domésticos, y para eso te acercamos la mejor solución! </p>
+                            <div className='nombreMarca'><h1>Lut Gholein</h1></div>
+                            <p>Lut Gholein</p>
+                            <p className='aboutUsText'>Todo comenzó con unas cuantas charlas dispersas en un servidor de Discord. Comentarios al pasar, partidas compartidas, memes, estrategias... sin darnos cuenta, habíamos formado algo más que un grupo: habíamos despertado una comunidad. De aquellas primeras conversaciones nació una hermandad gamer, un refugio virtual donde cada uno traía su juego favorito bajo el brazo y la pasión por sumergirse en mundos distintos. Entre teclas, clicks y risas, empezamos a construir algo más grande. Así surgió esta web.
+Un portal forjado con el único propósito de conectarnos mejor. Un punto de encuentro para ingresar a nuestros propios servidores, organizar nuestras sesiones, compartir recursos y seguir expandiendo ese universo que, sin querer, habíamos empezado a crear juntos. No somos solo jugadores. Somos exploradores de lo imposible, estrategas del caos, creadores de mundos. Y este sitio es nuestra base, nuestra fortaleza digital, nuestro grito de guerra hacia lo que viene.
+Bienvenido a la comunidad. El juego apenas comienza. </p>
                         </div> 
                         <div className="imgContainer">
                         <img src={imgAboutUs} className="imgAboutUs" alt="aboutUs"/>  
                         </div>
-                        
                     <Link className="CTAButton" to="/home">Volver a Inicio</Link>
                 </div>
-                <div className="whatsapp">
-                    <p className="whatsappContact">¡Estamos disponibles en WhatsApp las 24hs!</p>
-                    <a className="btn-wsp" href="https://api.whatsapp.com/send?phone=2235403055" role="button"><i
-                        className="whatsapp"><img src={whatsApp} alt="" /></i>
-                    </a>
-                </div>
+
             </header>
         </div>
     )

@@ -6,8 +6,6 @@ import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/navbar'
 import Legal from './components/Legal/legal'
-import FormularioBusco from './components/FormularioBusco/formularioBusco';
-import FormularioOfrezco from './components/FormularioOfrezco/formularioOfrezco';
 import AboutUs from './components/AboutUs/aboutUs';
 
 const App = () => {
@@ -20,8 +18,6 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/landing" element={<Landing />} />
-          <Route path="/formularioBusco" element={<FormularioBusco />} />
-          <Route path="/formularioOfrezco" element={<FormularioOfrezco />} />
           <Route path="/aboutUs" element={<AboutUs />} />
         </Routes>
         <Footer/>
