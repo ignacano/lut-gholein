@@ -12,7 +12,7 @@ const Landing = () => {
                     <img src={logo} className="App-logo" alt="logo"/>
                         <div className='textoBienvenida'>
                             <p>Bienvenidos a <div className='nombreMarca'><p>LUT GHOLEIN</p></div></p> 
-                            <p>La web exclusiva de la comunidad de Lut Gholein, donde podras acceder a servidores de D&D y Counter Strike 1.6</p>
+                            <p>La web exclusiva de la comunidad de Lut Gholein, donde podras tener acceso exclusivo a servidores de D&D y Counter Strike 1.6, y mucho más!</p>
                 
                         </div>   
                     <Link className="botonIngresa" to="/home">¡Ingresa Ahora, Aventurero!</Link>

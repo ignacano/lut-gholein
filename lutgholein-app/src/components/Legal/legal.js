@@ -10,7 +10,7 @@ const Legal = () => {
                 <div className='containerBienvenida'>
                     <img src={logo} className="App-logo" alt="logo"/>
                         <div className='textoBienvenida'>
-                            <div className='nombreMarca'><h1>Lut Gholein</h1></div>
+                            <div className='nombreMarca'>Lut Gholein</div>
                             <p>Reglas - Términos y Condiciones</p>
                             <p className='termsConds'> <p>📜 REGLAS DEL REINO – El Juramento del Aventurero ⚖️</p>
 
@@ -85,7 +85,7 @@ El Consejo del Staff vigila desde las sombras.</p>
 Que los dados te bendigan… o te condenen.</p>
 </p>
                         </div>   
-                    <Link className="CTAButton" to="/home">Volver a Inicio</Link>
+                    <Link className="CTAButton" to="/home">Acepto el juramento</Link>
                 </div>
 
             </header>

@@ -14,13 +14,14 @@ return (
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
             <Nav.Link href="/home">Inicio</Nav.Link>
+            <Nav.Link href="https://discord.gg/R4xXZCNK" target="_blank" rel="noopener noreferrer">Discord</Nav.Link>            
             <Nav.Link href="/aboutUs">Quienes Somos</Nav.Link>
             <NavDropdown title="Próximamente" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#" className=''>Servidores</NavDropdown.Item>
-            <NavDropdown.Item href="#">Información general</NavDropdown.Item>
-            <NavDropdown.Item href="#">Aportes de la comunidad</NavDropdown.Item>
-            <NavDropdown.Divider />
             <NavDropdown.Item href="#">Campañas</NavDropdown.Item>
+            <NavDropdown.Item href="#">Información general</NavDropdown.Item>
+            <NavDropdown.Item href="#">Aportes</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#">Comunidad</NavDropdown.Item>
             </NavDropdown>
         </Nav>
         <Nav>
