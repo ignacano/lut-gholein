@@ -11,11 +11,11 @@ const Home = () => {
                 <div className='containerBienvenida'>
                     <img src={logo} className="App-logo-home" alt="logo"/>
                         <div className='textoBienvenida'>
-                            <p><div className='nombreMarca'><h1 className="textoMarca">Lut Gholein</h1></div></p> 
+                            <p><div className='nombreMarca'><h1 className="textoMarca">LUT GHOLEIN</h1></div></p> 
                             <p className="descripcionServicio">En el corazón ardiente del desierto, donde las dunas esconden secretos ancestrales y el eco de antiguas leyendas aún resuena en las piedras, se alza Lut Gholein: nuestro bastión, nuestro punto de partida, nuestro hogar digital. 
                                 Aquí convergen aventureros de todos los rincones, unidos por el fuego del juego, la camaradería y el deseo de explorar mundos sin límites. Esta no es solo una web. Es una ciudad refugio. Un mapa hacia nuestros servidores. Un portal hacia cada historia que estamos por escribir. 
                                 Has llegado al oasis de la comunidad. Prepárate. Lo mejor está por comenzar. 
-                                <p className="resaltarEnunciado">ADELANTE, elige tu destino:</p></p>
+                                <p className="resaltarEnunciado">ADELANTE, MORTAL: Elige dónde se derramará tu sangre:</p></p>
                           
                         </div>  
                     <Link className="botonServer" to="/#">Foundry - Dungeon & Dragons</Link>

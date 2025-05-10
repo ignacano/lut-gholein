@@ -11,7 +11,7 @@ const Footer = () => {
     return(
         <footer className='footerContainer'> 
             <div className="mb-4">
-            <h3 className='trademark'>Lut Gholein es una marca registrada. Todos los derechos se encuentran reservados. Si tenes dudas, podés comunicarte las 24hs al 0800-333-2514.</h3>            
+            <h3 className='trademark'>Lut Gholein es una marca registrada, pero no por nosotros. -Con cariño: John Wilkins, El Gordo, Fran, Mati, Tobi.</h3>            
                 <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
                         className="fab fa-facebook-f"><img src={imgfacebook}/></i></a>
 
