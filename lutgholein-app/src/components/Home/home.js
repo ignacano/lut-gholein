@@ -18,7 +18,14 @@ const Home = () => {
                                 <p className="resaltarEnunciado">ADELANTE, MORTAL: Elige dónde se derramará tu sangre:</p></p>
                           
                         </div>  
-                    <Link className="botonServer" to="/#">Foundry - Dungeon & Dragons</Link>
+                     <a 
+                        className="botonServer" 
+                        href="https://foundry.lutgholein.online/join" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Foundry - Dungeon & Dragons
+                    </a>
                     <Link className="botonServer" to="/#">Counter Strike 1.6</Link>
                 </div>
             </header>
